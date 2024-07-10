@@ -1,6 +1,9 @@
 import Logo from '../../assets/images/RGlogo.png'
+import Bio from '../BioModal/Bio'
+import React, { useState } from 'react';
 
 const Navbar = () => {
+
 
     return (
     <>
@@ -16,10 +19,11 @@ const Navbar = () => {
             <a class="nav-link active" aria-current="page" href="#">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">About Me</a>
+            <a class="nav-link" href="#">Resume</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Portfolio</a>
+            <a class="nav-link" href='#'>Bio</a>
+          
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">TheTessaCollective</a>
@@ -27,7 +31,7 @@ const Navbar = () => {
         </ul>
         <div class="container">
         <a class="navbar-brand" href="#">
-            <img src={Logo} alt="" width="100" height="94"/>
+            <img src={Logo} alt="" width="150" height="144"/>
         </a>
   </div>
       </div>

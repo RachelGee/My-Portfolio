@@ -2,14 +2,18 @@
 import './App.css';
 import NavBar from './Components/Navbar/Navbar';
 import Carousel from './Components/Carousel/Carousel';
+import Accordion from './Components/Accordion/Accordion';
+import Bio from './Components/BioModal/Bio'
 
 const App = () => {
 
   return (
   <>
     <NavBar />
-    <h1>Hello! I'm Rachel</h1>
+
     <Carousel />
+
+    <Accordion />
 
   </>  
   );
